@@ -1,7 +1,6 @@
 from django.db import models
 from api.brand.models import Brand
 from api.category.models import Category
-from django.contrib.postgres.fields import ArrayField
 
 # Create your models here.
 class Product(models.Model):
