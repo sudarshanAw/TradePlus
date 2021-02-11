@@ -4,4 +4,4 @@ from .models import Brand
 class BrandSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Brand
-        field = ["name"]
+        fields = ["name"]
